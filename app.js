@@ -23,20 +23,20 @@ function LunchCheckController($scope) {
     { 
       $scope.message="Please enter data first";
       $scope.messageStyle={color:'red'};
-      $scope.boxStyle={border: '1px solid red'}
+      $scope.boxStyle={border: '1px solid red'};
 
     }
     else if(count<=3) 
       {
         $scope.message="Enjoy!"; 
         $scope.messageStyle={color:'green'};
-        $scope.boxStyle={border: '1px solid green'}
+        $scope.boxStyle={border: '1px solid green'};
       }
     else 
       {
         $scope.message="Too much!";
         $scope.messageStyle={color:'green'};
-        $scope.boxStyle={border: '1px solid green'}
+        $scope.boxStyle={border: '1px solid green'};
       }
   };
 
